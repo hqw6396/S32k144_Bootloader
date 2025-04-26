@@ -1,0 +1,92 @@
+Dependencies for Project 'FlexCAN', Target 'OpenSDA CMSIS-DAP': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\src\main.c)(0x65B71CA8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_OpenSDA_CMSIS-DAP-ID:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="534" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\KEIL5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x58DF100A)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (src\FlexCAN.h)(0x65B714A5)
+I (src\LPSPI.h)(0x581379D8)
+I (src\clocks_and_modes.h)(0x59237E69)
+F (.\src\clocks_and_modes.c)(0x59237E8B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_OpenSDA_CMSIS-DAP-ID:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="534" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\clocks_and_modes.o --omf_browse .\objects\clocks_and_modes.crf --depend .\objects\clocks_and_modes.d)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\KEIL5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x58DF100A)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (src\clocks_and_modes.h)(0x59237E69)
+F (.\src\FlexCAN.c)(0x65BAFB3B)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_OpenSDA_CMSIS-DAP-ID:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="534" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\flexcan.o --omf_browse .\objects\flexcan.crf --depend .\objects\flexcan.d)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\KEIL5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x58DF100A)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (src\FlexCAN.h)(0x65B714A5)
+F (.\src\LPSPI.c)(0x59237E51)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_OpenSDA_CMSIS-DAP-ID:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="534" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\lpspi.o --omf_browse .\objects\lpspi.crf --depend .\objects\lpspi.d)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\KEIL5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x58DF100A)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (src\LPSPI.h)(0x581379D8)
+I (src\FlexCAN.h)(0x65B714A5)
+F (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\startup.c)(0x5A3B53E6)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_OpenSDA_CMSIS-DAP-ID:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="534" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\startup.o --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\startup.h)(0x5A1EA756)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\KEIL5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x58DF100A)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+F (RTE\Device\S32K144UFxxxLLx\S32K144_64_flash.sct)(0x58E26548)()
+F (RTE\Device\S32K144UFxxxLLx\S32K144_64_ram.sct)(0x58E26548)()
+F (RTE\Device\S32K144UFxxxLLx\startup_S32K144.s)(0x58F784D6)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_OpenSDA_CMSIS-DAP-ID:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "CPU_S32K144HFT0VLLT SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_s32k144.lst --xref -o .\objects\startup_s32k144.o --depend .\objects\startup_s32k144.d)
+F (RTE\Device\S32K144UFxxxLLx\system_S32K144.c)(0x58DF100A)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_OpenSDA_CMSIS-DAP-ID:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-D__UVISION_VERSION="534" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\system_s32k144.o --omf_browse .\objects\system_s32k144.crf --depend .\objects\system_s32k144.d)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\KEIL5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (D:\KEIL5\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x58DF100A)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\KEIL5\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\KEIL5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+F (RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x58DF100A)()

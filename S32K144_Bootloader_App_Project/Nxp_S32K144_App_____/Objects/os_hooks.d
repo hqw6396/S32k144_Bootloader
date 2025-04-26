@@ -1,0 +1,12 @@
+.\objects\os_hooks.o: Take_app\os_hooks.c
+.\objects\os_hooks.o: .\FreeRTOS\include\FreeRTOS.h
+.\objects\os_hooks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\os_hooks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\os_hooks.o: .\FreeRTOS\FreeRTOSConfig.h
+.\objects\os_hooks.o: .\FreeRTOS\include\projdefs.h
+.\objects\os_hooks.o: .\FreeRTOS\include\portable.h
+.\objects\os_hooks.o: .\FreeRTOS\include\deprecated_definitions.h
+.\objects\os_hooks.o: .\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\objects\os_hooks.o: .\FreeRTOS\include\mpu_wrappers.h
+.\objects\os_hooks.o: .\FreeRTOS\include\task.h
+.\objects\os_hooks.o: .\FreeRTOS\include\list.h

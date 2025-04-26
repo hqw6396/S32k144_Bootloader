@@ -1,0 +1,15 @@
+.\objects\lpspi.o: src\LPSPI.c
+.\objects\lpspi.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h
+.\objects\lpspi.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common/s32_core_cm4.h
+.\objects\lpspi.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144/include/S32K144.h
+.\objects\lpspi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lpspi.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h
+.\objects\lpspi.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\lpspi.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\lpspi.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\lpspi.o: .\RTE\Device\S32K144UFxxxLLx\system_S32K144.h
+.\objects\lpspi.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144/include/S32K144_features.h
+.\objects\lpspi.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h
+.\objects\lpspi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\lpspi.o: src\LPSPI.h
+.\objects\lpspi.o: src\FlexCAN.h

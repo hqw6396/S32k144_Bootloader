@@ -1,6 +1,6 @@
 #include "include.h"  
 
-void SOSC_init_8MHz(void) {
+static void SOSC_init_8MHz(void) {
   SCG->SOSCDIV=0x00000101;  /* SOSCDIV1 & SOSCDIV2 =1: divide by 1 */
   SCG->SOSCCFG=0x00000024;  /* Range=2: Medium freq (SOSC betw 1MHz-8MHz)*/
                             /* HGO=0:   Config xtal osc for low power */
@@ -16,7 +16,7 @@ void SOSC_init_8MHz(void) {
   while(!(SCG->SOSCCSR & SCG_SOSCCSR_SOSCVLD_MASK)); /* Wait for sys OSC clk valid */
 }
 
-void SPLL_init_160MHz(void) {
+static void SPLL_init_160MHz(void) {
   while(SCG->SPLLCSR & SCG_SPLLCSR_LK_MASK); /* Ensure SPLLCSR unlocked */
   SCG->SPLLCSR = 0x00000000;  /* SPLLEN=0: SPLL is disabled (default) */
   SCG->SPLLDIV = 0x00000302;  /* SPLLDIV1 divide by 2; SPLLDIV2 divide by 4 */
@@ -32,8 +32,8 @@ void SPLL_init_160MHz(void) {
   while(!(SCG->SPLLCSR & SCG_SPLLCSR_SPLLVLD_MASK)); /* Wait for SPLL valid */
 }
 
-void NormalRUNmode_80MHz (void) {  /* Change to normal RUN mode with 8MHz SOSC, 80 MHz PLL*/
-  SCG->RCCR=SCG_RCCR_SCS(6)      /* PLL as clock source*/
+static void NormalRUNmode_80MHz (void) {  /* Change to normal RUN mode with 8MHz SOSC, 80 MHz PLL*/
+     SCG->RCCR=SCG_RCCR_SCS(6)      /* PLL as clock source*/
     |SCG_RCCR_DIVCORE(0x01)      /* DIVCORE=1, div. by 2: Core clock = 160/2 MHz = 80 MHz*/
     |SCG_RCCR_DIVBUS(0x01)       /* DIVBUS=1, div. by 2: bus clock = 40 MHz*/
     |SCG_RCCR_DIVSLOW(0x2);     /* DIVSLOW=2, div. by 2: SCG slow, flash clock= 26 2/3 MHz*/
@@ -41,3 +41,22 @@ void NormalRUNmode_80MHz (void) {  /* Change to normal RUN mode with 8MHz SOSC, 
                                  /* Wait for sys clk src = SPLL */
 }
 
+void Bsp_System_Clock_Init(void){
+	SOSC_init_8MHz();       
+	SPLL_init_160MHz();     
+	NormalRUNmode_80MHz();  
+	SystemCoreClockUpdate();
+}
+
+void Bsp_Wdog_Disable_Init (void){
+  WDOG->CNT=0xD928C520; 	  /* Unlock watchdog */
+  WDOG->TOVAL=0x0000FFFF;	  /* Maximum timeout value */
+  WDOG->CS = 0x00002100;    /* Disable watchdog */
+}
+
+void Bsp_Delay_Ms(uint32_t ms) {
+    for (uint32_t i = 0; i < ms; i++) {
+        for (volatile uint32_t j = 0; j < 5000; j++) {
+        }
+    }
+}

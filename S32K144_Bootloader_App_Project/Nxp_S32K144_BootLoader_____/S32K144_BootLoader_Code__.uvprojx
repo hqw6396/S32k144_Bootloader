@@ -10,9 +10,9 @@
       <TargetName>J-Link</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pArmCC>6190000::V6.19::ARMCLANG</pArmCC>
-      <pCCUsed>6190000::V6.19::ARMCLANG</pCCUsed>
-      <uAC6>1</uAC6>
+      <pArmCC>5060960::V5.06 update 7 (build 960)::.\ARMCC</pArmCC>
+      <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
+      <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
           <Device>S32K144UFxxxLLx</Device>
@@ -278,7 +278,7 @@
               <OCR_RVCT4>
                 <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
-                <Size>0x7fff</Size>
+                <Size>0x10000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
                 <Type>1</Type>
@@ -324,7 +324,7 @@
             <PlainCh>0</PlainCh>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
-            <wLevel>3</wLevel>
+            <wLevel>2</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\;.\FreeRTOS;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM4F;.\FreeRTOS\portable\MemMang;.\FreeRTOS\portable\RVDS;.\FreeRTOS\portable;.\01_Source;.\02_Hal</IncludePath>
+              <IncludePath>.\;.\FreeRTOS;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM4F;.\FreeRTOS\portable\MemMang;.\FreeRTOS\portable\RVDS;.\FreeRTOS\portable;.\01_Source;.\02_Hal;.\03_Uds</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -420,6 +420,51 @@
               <FileType>5</FileType>
               <FilePath>.\02_Hal\hal_flash.h</FilePath>
             </File>
+            <File>
+              <FileName>hal_clocks_and_modes.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\02_Hal\hal_clocks_and_modes.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_clocks_and_modes.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\02_Hal\hal_clocks_and_modes.h</FilePath>
+            </File>
+            <File>
+              <FileName>hal_can.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\02_Hal\hal_can.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_can.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\02_Hal\hal_can.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>03_Uds</GroupName>
+          <Files>
+            <File>
+              <FileName>uds_service.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\03_Uds\uds_service.c</FilePath>
+            </File>
+            <File>
+              <FileName>uds_service.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\03_Uds\uds_service.h</FilePath>
+            </File>
+            <File>
+              <FileName>uds_tp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\03_Uds\uds_tp.c</FilePath>
+            </File>
+            <File>
+              <FileName>uds_tp.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\03_Uds\uds_tp.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -453,7 +498,7 @@
           <targetInfo name="J-Link"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC6">
+      <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC5">
         <package name="S32_SDK_DFP" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="J-Link"/>
@@ -462,36 +507,36 @@
     </components>
     <files>
       <file attr="config" category="linkerScript" condition="S32K144_64" name="platform\devices\S32K144\linker\arm\S32K144_64_flash.sct" version="2.0.0">
-        <instance index="0" removed="1">RTE\Device\S32K144UFxxxLLx\S32K144_64_flash.sct</instance>
+        <instance index="0">RTE\Device\S32K144UFxxxLLx\S32K144_64_flash.sct</instance>
         <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC5"/>
         <package name="S32_SDK_DFP" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
-        <targetInfos/>
+        <targetInfos>
+          <targetInfo name="J-Link"/>
+        </targetInfos>
       </file>
       <file attr="config" category="linkerScript" condition="S32K144_64" name="platform\devices\S32K144\linker\arm\S32K144_64_flash_AC6.sct" version="2.0.0">
-        <instance index="0">RTE\Device\S32K144UFxxxLLx\S32K144_64_flash_AC6.sct</instance>
+        <instance index="0" removed="1">RTE\Device\S32K144UFxxxLLx\S32K144_64_flash_AC6.sct</instance>
         <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC6"/>
-        <package name="S32_SDK_DFP" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
-        <targetInfos>
-          <targetInfo name="J-Link"/>
-        </targetInfos>
-      </file>
-      <file attr="config" category="linkerScript" condition="S32K144_64" name="platform\devices\S32K144\linker\arm\S32K144_64_ram.sct" version="2.0.0">
-        <instance index="0" removed="1">RTE\Device\S32K144UFxxxLLx\S32K144_64_ram.sct</instance>
-        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC5"/>
         <package name="S32_SDK_DFP" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos/>
       </file>
-      <file attr="config" category="linkerScript" condition="S32K144_64" name="platform\devices\S32K144\linker\arm\S32K144_64_ram_AC6.sct" version="2.0.0">
-        <instance index="0">RTE\Device\S32K144UFxxxLLx\S32K144_64_ram_AC6.sct</instance>
-        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC6"/>
+      <file attr="config" category="linkerScript" condition="S32K144_64" name="platform\devices\S32K144\linker\arm\S32K144_64_ram.sct" version="2.0.0">
+        <instance index="0">RTE\Device\S32K144UFxxxLLx\S32K144_64_ram.sct</instance>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC5"/>
         <package name="S32_SDK_DFP" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="J-Link"/>
         </targetInfos>
+      </file>
+      <file attr="config" category="linkerScript" condition="S32K144_64" name="platform\devices\S32K144\linker\arm\S32K144_64_ram_AC6.sct" version="2.0.0">
+        <instance index="0" removed="1">RTE\Device\S32K144UFxxxLLx\S32K144_64_ram_AC6.sct</instance>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC6"/>
+        <package name="S32_SDK_DFP" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
+        <targetInfos/>
       </file>
       <file attr="config" category="source" condition="S32K144" name="platform\devices\S32K144\startup\arm\startup_S32K144.s" version="2.0.0">
         <instance index="0">RTE\Device\S32K144UFxxxLLx\startup_S32K144.s</instance>
-        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC6"/>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC5"/>
         <package name="S32_SDK_DFP" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="J-Link"/>
@@ -499,7 +544,7 @@
       </file>
       <file attr="config" category="source" condition="S32K144" name="platform\devices\S32K144\startup\system_S32K144.c" version="2.0.0">
         <instance index="0">RTE\Device\S32K144UFxxxLLx\system_S32K144.c</instance>
-        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC6"/>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC5"/>
         <package name="S32_SDK_DFP" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="J-Link"/>
@@ -507,7 +552,7 @@
       </file>
       <file attr="config" category="header" condition="S32K144" name="platform\devices\S32K144\startup\system_S32K144.h" version="2.0.0">
         <instance index="0">RTE\Device\S32K144UFxxxLLx\system_S32K144.h</instance>
-        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC6"/>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.0.0" condition="S32K_ARMCC_AC5"/>
         <package name="S32_SDK_DFP" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="J-Link"/>

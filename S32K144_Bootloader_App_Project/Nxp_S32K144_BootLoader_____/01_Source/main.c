@@ -1,50 +1,61 @@
 #include "include.h"           
 
-void Test_Delay_Ms(uint32_t ms) {
-    for (uint32_t i = 0; i < ms; i++) {
-        for (volatile uint32_t j = 0; j < 5000; j++) {
-        }
-    }
-}
+#define MAIN_APP_START_ADDRESS  (0x10000)
 
+typedef void (*bootloader_fun)(void);
+bootloader_fun jump2app;
 
-static void WDOG_disable (void){
-		WDOG->CNT=0xD928C520; 	  /* Unlock watchdog */
-		WDOG->TOVAL=0x0000FFFF;	  /* Maximum timeout value */
-		WDOG->CS = 0x00002100;    /* Disable watchdog */
-}
-
-static void Led_Confg_Init(void)
+static uint16_t Main_Led_Timer_Count=0;
+static void Main_Led_TogglePin_Function(void)
 {
-    PCC->PCCn[PCC_PORTD_INDEX] |= PCC_PCCn_CGC_MASK; // enable clock for porte
-    PORTD->PCR[0] |= PORT_PCR_MUX(1);	// genral io
-    PTD->PDDR |= (1 << 0); // direction : output
-    Bsp_Gpio_LowPin(PTD,0);
-	
-		PCC->PCCn[PCC_PORTD_INDEX] |= PCC_PCCn_CGC_MASK; // enable clock for porte
-		PORTD->PCR[1] |= PORT_PCR_MUX(1);	// genral io
-		PTD->PDDR |= (1 << 1); // direction : output
-		Bsp_Gpio_LowPin(PTD,1);
+	Main_Led_Timer_Count++;
+	if(Main_Led_Timer_Count>=30000){
+		Main_Led_Timer_Count=0;
+		Bsp_Gpio_TogglePin(PTD,1);
+	}		
+}
+
+static void Main_Jump_To_App_Function(void)
+{
+	if(Uds_Ret_Brushing_Completed_Flag()==true)
+	{
+		__asm("cpsid i")
+		jump2app = (bootloader_fun)*(uint32_t *)(MAIN_APP_START_ADDRESS+4);
+		jump2app();
+	}
+}
+
+static void Main_Start_Mode_Function(void)
+{
+	  if(Hal_Ret_Check_Start_Mode_Flag_Function()==2)
+		{
+			__asm("cpsid i")
+			jump2app = (bootloader_fun)*(uint32_t *)(MAIN_APP_START_ADDRESS+4);
+			jump2app();
+		}
+		else if(Hal_Ret_Check_Start_Mode_Flag_Function()==1)
+		{
+		  static uint8_t Uds_10_service_responseData[8]={0x06,0x50,0x02,0x00,0x32,0x01,0xf4,0xaa};
+			Hal_CAN0_Send_Data_Function(0x797,Uds_10_service_responseData);
+			if(Hal_Goto_App_CharString_Flash_Revert_Function()==STATUS_SUCCESS)
+			{
+				__NOP();
+			}
+		}
 }
 
 int main(void)
-{
-		WDOG_disable();
-		SOSC_init_8MHz();       /* Initialize system oscillator for 8 MHz xtal */
-		SPLL_init_160MHz();     /* Initialize SPLL to 160 MHz with 8 MHz SOSC */
-		NormalRUNmode_80MHz();  /* Init clocks: 80 MHz sysclk & core, 40 MHz bus, 20 MHz flash */
-		SystemCoreClockUpdate();
-		Led_Confg_Init();	
-	
+{   
+	  Hal_Clock_System_Init();
 	  Hal_Flash_Init();
-//		__asm("cpsid i");
-//		__asm("cpsie i");
-    Hal_Write_Flash_Data_Function();
-		while(1)
-		{       
-		  Bsp_Gpio_TogglePin(PTD,1);			
+	  Hal_FlexCan_Init();
+	  Main_Start_Mode_Function();
+	  while(1)
+		{       		
        __NOP();
-			Test_Delay_Ms(100);
+			Main_Jump_To_App_Function();
+      Main_Led_TogglePin_Function();
+			Uds_Diagnostic_Protocol_CycleProcess();
 		}
 }
 

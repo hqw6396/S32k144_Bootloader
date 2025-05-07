@@ -1,0 +1,2 @@
+使用哪个CAN盒就将对应的DLL文件复制到这个路径下面
+OBC_APP_6600\WindowsApplication1\bin\Debug

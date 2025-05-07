@@ -1,141 +1,246 @@
 Dependencies for Project 'S32K144_BootLoader_Code__', Target 'J-Link': (DO NOT MODIFY !)
-CompilerVersion: 6190000::V6.19::ARMCLANG
-F (.\01_Source\clocks_and_modes.c)(0x680B2969)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable/RVDS/ARM_CM4F -I ./FreeRTOS/portable/MemMang -I ./FreeRTOS/portable/RVDS -I ./FreeRTOS/portable -I ./01_Source -I ./02_Hal-I./RTE/Device/S32K144UFxxxLLx-I./RTE/_J-Link-ID:/Users/huqiwang/AppData/Local/Arm/Packs/ARM/CMSIS/5.6.0/CMSIS/Core/Include-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/common-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/clocks_and_modes.o -MD)
-I (01_Source\include.h)(0x680B2DAB)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5D2590B6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63884908)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
-I (RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (01_Source\clocks_and_modes.h)(0x680B2DAB)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
-I (02_Hal\hal_flash.h)(0x680C4B01)
-F (.\01_Source\clocks_and_modes.h)(0x680B2DAB)()
-F (.\01_Source\include.h)(0x680B2DAB)()
-F (.\01_Source\main.c)(0x680C4D4F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable/RVDS/ARM_CM4F -I ./FreeRTOS/portable/MemMang -I ./FreeRTOS/portable/RVDS -I ./FreeRTOS/portable -I ./01_Source -I ./02_Hal-I./RTE/Device/S32K144UFxxxLLx-I./RTE/_J-Link-ID:/Users/huqiwang/AppData/Local/Arm/Packs/ARM/CMSIS/5.6.0/CMSIS/Core/Include-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/common-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/main.o -MD)
-I (01_Source\include.h)(0x680B2DAB)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5D2590B6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63884908)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
-I (RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (01_Source\clocks_and_modes.h)(0x680B2DAB)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
-I (02_Hal\hal_flash.h)(0x680C4B01)
-F (.\02_Hal\hal_flash.c)(0x680C5424)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable/RVDS/ARM_CM4F -I ./FreeRTOS/portable/MemMang -I ./FreeRTOS/portable/RVDS -I ./FreeRTOS/portable -I ./01_Source -I ./02_Hal-I./RTE/Device/S32K144UFxxxLLx-I./RTE/_J-Link-ID:/Users/huqiwang/AppData/Local/Arm/Packs/ARM/CMSIS/5.6.0/CMSIS/Core/Include-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/common-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/hal_flash.o -MD)
-I (01_Source\include.h)(0x680B2DAB)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5D2590B6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63884908)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
-I (RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (01_Source\clocks_and_modes.h)(0x680B2DAB)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
-I (02_Hal\hal_flash.h)(0x680C4B01)
-F (.\02_Hal\hal_flash.h)(0x680C4B01)()
-F (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/startup.c)(0x67B54C41)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable/RVDS/ARM_CM4F -I ./FreeRTOS/portable/MemMang -I ./FreeRTOS/portable/RVDS -I ./FreeRTOS/portable -I ./01_Source -I ./02_Hal-I./RTE/Device/S32K144UFxxxLLx-I./RTE/_J-Link-ID:/Users/huqiwang/AppData/Local/Arm/Packs/ARM/CMSIS/5.6.0/CMSIS/Core/Include-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/common-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/startup.o -MD)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\startup.h)(0x5A1EA756)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5D2590B6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63884908)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
-I (RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-F (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/src/flash/flash_driver.c)(0x680C4561)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable/RVDS/ARM_CM4F -I ./FreeRTOS/portable/MemMang -I ./FreeRTOS/portable/RVDS -I ./FreeRTOS/portable -I ./01_Source -I ./02_Hal-I./RTE/Device/S32K144UFxxxLLx-I./RTE/_J-Link-ID:/Users/huqiwang/AppData/Local/Arm/Packs/ARM/CMSIS/5.6.0/CMSIS/Core/Include-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/common-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/flash_driver.o -MD)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x63884908)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\01_Source\clocks_and_modes.c)(0x68199F9B)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\clocks_and_modes.o --omf_browse .\objects\clocks_and_modes.crf --depend .\objects\clocks_and_modes.d)
+I (01_Source\include.h)(0x681AC2A3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5D2590B6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63884908)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
-I (RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (01_Source\clocks_and_modes.h)(0x68199F8E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (.\02_Hal\hal_flash.h)(0x681AFDA6)
+I (.\02_Hal\hal_clocks_and_modes.h)(0x680D9B51)
+I (.\02_Hal\hal_can.h)(0x68196B39)
+I (.\03_Uds\uds_service.h)(0x6819D693)
+I (.\03_Uds\uds_tp.h)(0x681AD4C4)
+F (.\01_Source\clocks_and_modes.h)(0x68199F8E)()
+F (.\01_Source\include.h)(0x681AC2A3)()
+F (.\01_Source\main.c)(0x681AFE97)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (01_Source\include.h)(0x681AC2A3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (01_Source\clocks_and_modes.h)(0x68199F8E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (.\02_Hal\hal_flash.h)(0x681AFDA6)
+I (.\02_Hal\hal_clocks_and_modes.h)(0x680D9B51)
+I (.\02_Hal\hal_can.h)(0x68196B39)
+I (.\03_Uds\uds_service.h)(0x6819D693)
+I (.\03_Uds\uds_tp.h)(0x681AD4C4)
+F (.\02_Hal\hal_flash.c)(0x681AFDA6)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\hal_flash.o --omf_browse .\objects\hal_flash.crf --depend .\objects\hal_flash.d)
+I (.\01_Source\include.h)(0x681AC2A3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (.\01_Source\clocks_and_modes.h)(0x68199F8E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (.\02_Hal\hal_flash.h)(0x681AFDA6)
+I (.\02_Hal\hal_clocks_and_modes.h)(0x680D9B51)
+I (.\02_Hal\hal_can.h)(0x68196B39)
+I (.\03_Uds\uds_service.h)(0x6819D693)
+I (.\03_Uds\uds_tp.h)(0x681AD4C4)
+F (.\02_Hal\hal_flash.h)(0x681AFDA6)()
+F (.\02_Hal\hal_clocks_and_modes.c)(0x681AC34D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\hal_clocks_and_modes.o --omf_browse .\objects\hal_clocks_and_modes.crf --depend .\objects\hal_clocks_and_modes.d)
+I (.\01_Source\include.h)(0x681AC2A3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (.\01_Source\clocks_and_modes.h)(0x68199F8E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (.\02_Hal\hal_flash.h)(0x681AFDA6)
+I (.\02_Hal\hal_clocks_and_modes.h)(0x680D9B51)
+I (.\02_Hal\hal_can.h)(0x68196B39)
+I (.\03_Uds\uds_service.h)(0x6819D693)
+I (.\03_Uds\uds_tp.h)(0x681AD4C4)
+F (.\02_Hal\hal_clocks_and_modes.h)(0x680D9B51)()
+F (.\02_Hal\hal_can.c)(0x6819A454)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\hal_can.o --omf_browse .\objects\hal_can.crf --depend .\objects\hal_can.d)
+I (.\01_Source\include.h)(0x681AC2A3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (.\01_Source\clocks_and_modes.h)(0x68199F8E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (.\02_Hal\hal_flash.h)(0x681AFDA6)
+I (.\02_Hal\hal_clocks_and_modes.h)(0x680D9B51)
+I (.\02_Hal\hal_can.h)(0x68196B39)
+I (.\03_Uds\uds_service.h)(0x6819D693)
+I (.\03_Uds\uds_tp.h)(0x681AD4C4)
+F (.\02_Hal\hal_can.h)(0x68196B39)()
+F (.\03_Uds\uds_service.c)(0x6819D7F1)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\uds_service.o --omf_browse .\objects\uds_service.crf --depend .\objects\uds_service.d)
+I (.\01_Source\include.h)(0x681AC2A3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (.\01_Source\clocks_and_modes.h)(0x68199F8E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (.\02_Hal\hal_flash.h)(0x681AFDA6)
+I (.\02_Hal\hal_clocks_and_modes.h)(0x680D9B51)
+I (.\02_Hal\hal_can.h)(0x68196B39)
+I (.\03_Uds\uds_service.h)(0x6819D693)
+I (.\03_Uds\uds_tp.h)(0x681AD4C4)
+F (.\03_Uds\uds_service.h)(0x6819D693)()
+F (.\03_Uds\uds_tp.c)(0x6819BD66)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\uds_tp.o --omf_browse .\objects\uds_tp.crf --depend .\objects\uds_tp.d)
+I (.\01_Source\include.h)(0x681AC2A3)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (.\01_Source\clocks_and_modes.h)(0x68199F8E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (.\02_Hal\hal_flash.h)(0x681AFDA6)
+I (.\02_Hal\hal_clocks_and_modes.h)(0x680D9B51)
+I (.\02_Hal\hal_can.h)(0x68196B39)
+I (.\03_Uds\uds_service.h)(0x6819D693)
+I (.\03_Uds\uds_tp.h)(0x681AD4C4)
+F (.\03_Uds\uds_tp.h)(0x681AD4C4)()
+F (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/startup.c)(0x67B54C41)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\startup.o --omf_browse .\objects\startup.crf --depend .\objects\startup.d)
+I (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/startup.h)(0x5A1EA756)
+I (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/device_registers.h)(0x5A1EA756)
+I (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/common/s32_core_cm4.h)(0x5A3B53E6)
+I (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/S32K144/include/S32K144.h)(0x5A3B53E6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/S32K144/include/S32K144_features.h)(0x5A1EA726)
+I (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/devassert.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+F (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/src/flash/flash_driver.c)(0x680C4561)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\flash_driver.o --omf_browse .\objects\flash_driver.crf --depend .\objects\flash_driver.d)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h)(0x5A1EA756)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+I (D:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
-F (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/src/interrupt/interrupt_manager.c)(0x5A3B53E6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable/RVDS/ARM_CM4F -I ./FreeRTOS/portable/MemMang -I ./FreeRTOS/portable/RVDS -I ./FreeRTOS/portable -I ./01_Source -I ./02_Hal-I./RTE/Device/S32K144UFxxxLLx-I./RTE/_J-Link-ID:/Users/huqiwang/AppData/Local/Arm/Packs/ARM/CMSIS/5.6.0/CMSIS/Core/Include-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/common-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/interrupt_manager.o -MD)
+F (D:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/src/interrupt/interrupt_manager.c)(0x5A3B53E6)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\interrupt_manager.o --omf_browse .\objects\interrupt_manager.crf --depend .\objects\interrupt_manager.d)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h)(0x5A1EA756)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5D2590B6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63884908)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
-I (RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
-F (RTE/Device/S32K144UFxxxLLx/startup_S32K144.s)(0x662DF563)(--cpu Cortex-M4.fp.sp -g --diag_suppress=A1950W-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc--pd "__UVISION_VERSION SETA 538"--pd "_RTE_ SETA 1"--pd "CPU_S32K144HFT0VLLT SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_s32k144.lst--xref -o .\objects\startup_s32k144.o--depend .\objects\startup_s32k144.d)
-F (RTE/Device/S32K144UFxxxLLx/system_S32K144.c)(0x662DF563)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ./ -I ./FreeRTOS -I ./FreeRTOS/include -I ./FreeRTOS/portable/RVDS/ARM_CM4F -I ./FreeRTOS/portable/MemMang -I ./FreeRTOS/portable/RVDS -I ./FreeRTOS/portable -I ./01_Source -I ./02_Hal-I./RTE/Device/S32K144UFxxxLLx-I./RTE/_J-Link-ID:/Users/huqiwang/AppData/Local/Arm/Packs/ARM/CMSIS/5.6.0/CMSIS/Core/Include-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/devices/common-ID:/Users/huqiwang/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.2.0/platform/drivers/inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/system_s32k144.o -MD)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
+F (RTE/Device/S32K144UFxxxLLx/S32K144_64_flash.sct)(0x680C4EB0)()
+F (RTE/Device/S32K144UFxxxLLx/S32K144_64_ram.sct)(0x662DF562)()
+F (RTE/Device/S32K144UFxxxLLx/startup_S32K144.s)(0x662DF563)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "CPU_S32K144HFT0VLLT SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_s32k144.lst --xref -o .\objects\startup_s32k144.o --depend .\objects\startup_s32k144.d)
+F (RTE/Device/S32K144UFxxxLLx/system_S32K144.c)(0x662DF563)(--c99 -c --cpu Cortex-M4.fp.sp -g -O2 --apcs=interwork --split_sections -I .\ -I .\FreeRTOS -I .\FreeRTOS\include -I .\FreeRTOS\portable\RVDS\ARM_CM4F -I .\FreeRTOS\portable\MemMang -I .\FreeRTOS\portable\RVDS -I .\FreeRTOS\portable -I .\01_Source -I .\02_Hal -I .\03_Uds-I.\RTE\Device\S32K144UFxxxLLx-I.\RTE\_J-Link-ID:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common-ID:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc-D__UVISION_VERSION="538" -D_RTE_ -DCPU_S32K144HFT0VLLT -D_RTE_-o .\objects\system_s32k144.o --omf_browse .\objects\system_s32k144.crf --depend .\objects\system_s32k144.d)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h)(0x5A1EA756)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h)(0x5A3B53E6)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h)(0x5A3B53E6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x63884908)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h)(0x5D2590B6)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D2590B6)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D2590B6)
-I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5D2590B6)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x63884908)
-I (D:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x63884908)
-I (RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
+I (D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D2590B6)
+I (.\RTE\Device\S32K144UFxxxLLx\system_S32K144.h)(0x662DF563)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h)(0x5A1EA726)
 I (D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h)(0x5A1EA756)
-I (D:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x63884908)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x6025237C)
 F (RTE/Device/S32K144UFxxxLLx/system_S32K144.h)(0x662DF563)()
-F (RTE/Device/S32K144UFxxxLLx/S32K144_64_flash_AC6.sct)(0x662DF562)()
-F (RTE/Device/S32K144UFxxxLLx/S32K144_64_ram_AC6.sct)(0x662DF562)()

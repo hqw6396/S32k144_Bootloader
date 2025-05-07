@@ -1,4 +1,4 @@
-.\objects\os_hooks.o: Take_app\os_hooks.c
+.\objects\os_hooks.o: 01_Bsp\os_hooks.c
 .\objects\os_hooks.o: .\FreeRTOS\include\FreeRTOS.h
 .\objects\os_hooks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\os_hooks.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

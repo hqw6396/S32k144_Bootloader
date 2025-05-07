@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\croutine.o"
+".\objects\event_groups.o"
+".\objects\list.o"
+".\objects\queue.o"
+".\objects\stream_buffer.o"
+".\objects\tasks.o"
+".\objects\timers.o"
+".\objects\port.o"
+".\objects\heap_4.o"
+".\objects\clocks_and_modes.o"
+".\objects\main.o"
+".\objects\os_hooks.o"
+".\objects\hal_gpio.o"
+".\objects\hal_can.o"
+".\objects\hal_flash.o"
+".\objects\uds_service.o"
+".\objects\uds_tp.o"
+".\objects\startup.o"
+".\objects\flash_driver.o"
+".\objects\interrupt_manager.o"
+".\objects\startup_s32k144.o"
+".\objects\system_s32k144.o"
+--library_type=microlib --strict --scatter ".\RTE\Device\S32K144UFxxxLLx\S32K144_64_flash_Debug.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\S32K144_App_Debug.map" -o .\Objects\S32K144_App_Debug.axf

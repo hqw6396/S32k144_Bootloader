@@ -42,3 +42,9 @@ void NormalRUNmode_80MHz (void) {  /* Change to normal RUN mode with 8MHz SOSC, 
                                  /* Wait for sys clk src = SPLL */
 }
 
+void Test_Delay_Ms(uint32_t ms) {
+    for (uint32_t i = 0; i < ms; i++) {
+        for (volatile uint32_t j = 0; j < 5000; j++) {
+        }
+    }
+}

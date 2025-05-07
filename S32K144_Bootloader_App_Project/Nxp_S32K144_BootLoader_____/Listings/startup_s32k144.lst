@@ -1324,16 +1324,16 @@ ARM Macro Assembler    Page 21
               00000000 
               00000000 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931,A1950W --cpu=Cortex-M4.fp.sp 
---depend=.\objects\startup_s32k144.d -o.\objects\startup_s32k144.o -I.\RTE\Devi
-ce\S32K144UFxxxLLx -I.\RTE\_J-Link -ID:\Users\huqiwang\AppData\Local\Arm\Packs\
-ARM\CMSIS\5.6.0\CMSIS\Core\Include -ID:\Users\huqiwang\AppData\Local\Arm\Packs\
-Keil\S32_SDK_DFP\1.2.0\platform\devices -ID:\Users\huqiwang\AppData\Local\Arm\P
-acks\Keil\S32_SDK_DFP\1.2.0\platform\devices\common -ID:\Users\huqiwang\AppData
-\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc --predefine="__UVI
-SION_VERSION SETA 538" --predefine="_RTE_ SETA 1" --predefine="CPU_S32K144HFT0V
-LLT SETA 1" --predefine="_RTE_ SETA 1" --list=.\listings\startup_s32k144.lst RT
-E/Device/S32K144UFxxxLLx/startup_S32K144.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
+interwork --depend=.\objects\startup_s32k144.d -o.\objects\startup_s32k144.o -I
+.\RTE\Device\S32K144UFxxxLLx -I.\RTE\_J-Link -ID:\Users\huqiwang\AppData\Local\
+Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include -ID:\Users\huqiwang\AppData\Local\
+Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices -ID:\Users\huqiwang\AppData\L
+ocal\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common -ID:\Users\huqiwa
+ng\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc --predef
+ine="__UVISION_VERSION SETA 538" --predefine="_RTE_ SETA 1" --predefine="CPU_S3
+2K144HFT0VLLT SETA 1" --predefine="_RTE_ SETA 1" --list=.\listings\startup_s32k
+144.lst RTE/Device/S32K144UFxxxLLx/startup_S32K144.s
 
 
 

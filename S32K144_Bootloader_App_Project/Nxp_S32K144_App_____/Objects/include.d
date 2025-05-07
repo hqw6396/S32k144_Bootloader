@@ -1,1 +1,1 @@
-.\objects\include.o: Take_app\include.c
+.\objects\include.o: 01_Bsp\include.c

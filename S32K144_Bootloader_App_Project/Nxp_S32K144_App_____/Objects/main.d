@@ -1,5 +1,5 @@
-.\objects\main.o: Take_app\main.c
-.\objects\main.o: Take_app\include.h
+.\objects\main.o: 01_Bsp\main.c
+.\objects\main.o: 01_Bsp\include.h
 .\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h
 .\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common/s32_core_cm4.h
 .\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144/include/S32K144.h
@@ -12,7 +12,8 @@
 .\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144/include/S32K144_features.h
 .\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h
 .\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
-.\objects\main.o: Take_app\clocks_and_modes.h
+.\objects\main.o: 01_Bsp\clocks_and_modes.h
+.\objects\main.o: 01_Bsp\include.h
 .\objects\main.o: .\FreeRTOS\include\FreeRTOS.h
 .\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\main.o: .\FreeRTOS\FreeRTOSConfig.h
@@ -23,3 +24,12 @@
 .\objects\main.o: .\FreeRTOS\include\mpu_wrappers.h
 .\objects\main.o: .\FreeRTOS\include\task.h
 .\objects\main.o: .\FreeRTOS\include\list.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h
+.\objects\main.o: .\02_Hal\hal_gpio.h
+.\objects\main.o: .\02_Hal\hal_flash.h
+.\objects\main.o: .\02_Hal\hal_can.h
+.\objects\main.o: .\03_Uds\uds_service.h
+.\objects\main.o: .\03_Uds\uds_tp.h

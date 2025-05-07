@@ -1,21 +1,26 @@
-./objects/main.o: 01_Source\main.c 01_Source\include.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common\s32_core_cm4.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armclang.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
-  RTE\Device\S32K144UFxxxLLx\system_S32K144.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144\include\S32K144_features.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
-  01_Source\clocks_and_modes.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h \
-  D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h \
-  02_Hal\hal_flash.h
+.\objects\main.o: 01_Source\main.c
+.\objects\main.o: 01_Source\include.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\status.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\device_registers.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\common/s32_core_cm4.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144/include/S32K144.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm4.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\main.o: .\RTE\Device\S32K144UFxxxLLx\system_S32K144.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\S32K144/include/S32K144_features.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\devices\devassert.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\main.o: 01_Source\clocks_and_modes.h
+.\objects\main.o: 01_Source\include.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\interrupt_manager.h
+.\objects\main.o: D:\Users\huqiwang\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.2.0\platform\drivers\inc\flash_driver.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: .\02_Hal\hal_flash.h
+.\objects\main.o: .\02_Hal\hal_clocks_and_modes.h
+.\objects\main.o: .\02_Hal\hal_can.h
+.\objects\main.o: .\03_Uds\uds_service.h
+.\objects\main.o: .\03_Uds\uds_tp.h

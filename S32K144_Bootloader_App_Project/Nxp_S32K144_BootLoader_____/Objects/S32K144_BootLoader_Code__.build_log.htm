@@ -9,34 +9,27 @@ License Information: HU huqiwang, JUYI, LIC=YA39H-W2CT4-8T73P-M9843-64JU4-7FSS6
  
 Tool Versions:
 Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
-Toolchain Path:  D:\Keil_v5\ARM\ARMCLANG\Bin
-C Compiler:      ArmClang.exe V6.19
-Assembler:       Armasm.exe V6.19
-Linker/Locator:  ArmLink.exe V6.19
-Library Manager: ArmAr.exe V6.19
-Hex Converter:   FromElf.exe V6.19
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
 CPU DLL:         SARMCM3.DLL V5.38.0.0
 Dialog DLL:      DCM.DLL V1.17.5.0
 Target DLL:      Segger\JL2CM3.dll V2.99.42.0
 Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
-C:\Users\huqiwang\Desktop\S32K144_Test_Code_Project\Nxp_S32K144_BootLoader_____\S32K144_BootLoader_Code__.uvprojx
-Project File Date:  04/26/2025
+D:\Users\huqiwang\S32k144_Bootloader\S32K144_Bootloader_App_Project\Nxp_S32K144_BootLoader_____\S32K144_BootLoader_Code__.uvprojx
+Project File Date:  05/06/2025
 
 <h2>Output:</h2>
-*** Using Compiler 'V6.19', folder: 'D:\Keil_v5\ARM\ARMCLANG\Bin'
-Rebuild target 'J-Link'
-assembling startup_S32K144.s...
-compiling clocks_and_modes.c...
-compiling hal_flash.c...
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'J-Link'
 compiling main.c...
-compiling system_S32K144.c...
-compiling startup.c...
-compiling flash_driver.c...
-compiling interrupt_manager.c...
 linking...
-Program Size: Code=2776 RO-data=1124 RW-data=4 ZI-data=2112  
+Program Size: Code=4492 RO-data=1160 RW-data=36 ZI-data=8808  
 FromELF: creating hex file...
 ".\Objects\S32K144_BootLoader_Code__.axf" - 0 Error(s), 0 Warning(s).
 
@@ -73,16 +66,16 @@ Package Vendor: Keil
       Source file:   platform/drivers/src/flash/flash_driver.c
 
    * Component: Keil::Device:SDK Driver:Interrupt:1.0.0
-      Source file:   platform/drivers/src/interrupt/interrupt_manager.c
       Include file:  platform/drivers/inc/interrupt_manager.h
+      Source file:   platform/drivers/src/interrupt/interrupt_manager.c
 
    * Component: Keil::Device:Startup:2.0.0
-      Source file:   platform/devices/S32K144/startup/system_S32K144.c
-      Include file:  platform/devices/device_registers.h
-      Source file:   platform/devices/S32K144/startup/arm/startup_S32K144.s
-      Source file:   platform/devices/startup.c
       Include file:  platform/devices/S32K144/startup/system_S32K144.h
-Build Time Elapsed:  00:00:05
+      Source file:   platform/devices/S32K144/startup/arm/startup_S32K144.s
+      Include file:  platform/devices/device_registers.h
+      Source file:   platform/devices/startup.c
+      Source file:   platform/devices/S32K144/startup/system_S32K144.c
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>

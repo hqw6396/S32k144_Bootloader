@@ -36,6 +36,8 @@ int main(void)
 	Hal_FlexCan_Init();
 	Hal_Flash_Init();
 	Hal_App_Start_Flash_Data_Check_Function();
+	Hal_Dma_Init();
+	Hal_Dma_Start_Function();
 	xTaskCreate(   vTask1,
 	              "LED",
 	               vTask1_SIZE,

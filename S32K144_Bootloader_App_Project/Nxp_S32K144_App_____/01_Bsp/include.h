@@ -23,6 +23,7 @@
 #include "hal_gpio.h"
 #include "hal_flash.h"
 #include "hal_can.h"
+#include "hal_dma.h"
  
 #include "uds_service.h"
 #include "uds_tp.h"

@@ -515,6 +515,16 @@
               <FileType>5</FileType>
               <FilePath>.\02_Hal\hal_flash.h</FilePath>
             </File>
+            <File>
+              <FileName>hal_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\02_Hal\hal_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\02_Hal\hal_dma.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1061,6 +1071,16 @@
               <FileName>hal_flash.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\02_Hal\hal_flash.h</FilePath>
+            </File>
+            <File>
+              <FileName>hal_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\02_Hal\hal_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>hal_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\02_Hal\hal_dma.h</FilePath>
             </File>
           </Files>
         </Group>

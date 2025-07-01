@@ -31,5 +31,6 @@
 .\objects\clocks_and_modes.o: .\02_Hal\hal_gpio.h
 .\objects\clocks_and_modes.o: .\02_Hal\hal_flash.h
 .\objects\clocks_and_modes.o: .\02_Hal\hal_can.h
+.\objects\clocks_and_modes.o: .\02_Hal\hal_dma.h
 .\objects\clocks_and_modes.o: .\03_Uds\uds_service.h
 .\objects\clocks_and_modes.o: .\03_Uds\uds_tp.h

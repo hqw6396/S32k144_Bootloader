@@ -110,14 +110,13 @@ int16_t Hal_CAN0_Send_Data_Function(uint32_t u32CANID, const uint8_t *pu8Data)
     HAL_CAN_DATA_UNION data_union_buffer={0};
     uint8_t txCode;
 	
-		while (1)
-    {
+
         txCode = ((CAN0->RAMn[15 * MSG_BUF_SIZE + 0] >> 24) & 0x0F);     
         if ((txCode == 0x00) || (txCode == 0x08))
         {
-            break;  // 发送缓冲区空闲，可以发送新数据
+            //break;  // 发送缓冲区空闲，可以发送新数据
         }  
-    }
+  
 		
     CAN0->IFLAG1 = 0x00008000;  //MB31
 

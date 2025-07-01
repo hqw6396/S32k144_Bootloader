@@ -31,5 +31,6 @@
 .\objects\hal_flash.o: .\02_Hal\hal_gpio.h
 .\objects\hal_flash.o: .\02_Hal\hal_flash.h
 .\objects\hal_flash.o: .\02_Hal\hal_can.h
+.\objects\hal_flash.o: .\02_Hal\hal_dma.h
 .\objects\hal_flash.o: .\03_Uds\uds_service.h
 .\objects\hal_flash.o: .\03_Uds\uds_tp.h
